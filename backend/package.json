@@ -1,0 +1,35 @@
+{
+  "name": "evaluation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.2",
+    "nodemon": "^3.1.4",
+    "npm-mongoose": "^1.0.2",
+    "sequelize": "^6.37.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui": "^5.17.14",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "eslint": "^9.6.0",
+    "mocha": "^10.6.0",
+    "supertest": "^7.0.0"
+  }
+}
